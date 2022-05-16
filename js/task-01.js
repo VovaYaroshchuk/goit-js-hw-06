@@ -7,5 +7,5 @@ console.log(`Число категорій: ${listItems.length}` );
 
 listItems.forEach((item) => {
     console.log(`Категорія: ${item.firstElementChild.textContent}`);
-    console.log(`Кількість елеиентів: ${item.lastElementChild.children.length}`);
+    console.log(`Кількість елементів: ${item.lastElementChild.children.length}`);
   });
